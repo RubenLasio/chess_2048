@@ -271,7 +271,10 @@ public class MyActionListener implements ActionListener {
     	if(north>=0 && east<=7 && (f.pezzi[east][north].getIcon() == f.alfiereNero || f.pezzi[east][north].getIcon() == f.pedoneNero || f.pezzi[east][north].getIcon() == f.torreNera || f.pezzi[east][north].getIcon() == f.cavalloNero || f.pezzi[east][north].getIcon() == f.reginaNera || f.pezzi[east][north].getIcon() == f.reNero)) {
     		f.pezzi[east][north].setBorder(BorderFactory.createLineBorder(Color.red, 3));
     	}
-    	
+    	east=x+1;
+		west=x-1;
+		north=y-1;
+		south=y+1;
     	while(north>=0 && west>=0 && f.pezzi[west][north].getIcon() == null) {
     		f.pezzi[west][north].setIcon(f.pallino);
     		f.pezzi[west][north].setVisible(true);
@@ -282,7 +285,10 @@ public class MyActionListener implements ActionListener {
     		f.pezzi[west][north].setBorder(BorderFactory.createLineBorder(Color.red, 3));
     	}
     	
-    	
+    	east=x+1;
+		west=x-1;
+		north=y-1;
+		south=y+1;
     	while(south<=7 && east<=7 && f.pezzi[east][south].getIcon() == null) {
     		f.pezzi[east][south].setIcon(f.pallino);
     		f.pezzi[east][south].setVisible(true);
@@ -292,7 +298,10 @@ public class MyActionListener implements ActionListener {
     	if(south<=7 && east<=7 && (f.pezzi[east][south].getIcon() == f.alfiereNero || f.pezzi[east][south].getIcon() == f.pedoneNero || f.pezzi[east][south].getIcon() == f.torreNera || f.pezzi[east][south].getIcon() == f.cavalloNero || f.pezzi[east][south].getIcon() == f.reginaNera || f.pezzi[east][south].getIcon() == f.reNero)) {
     		f.pezzi[east][south].setBorder(BorderFactory.createLineBorder(Color.red, 3));
     	}
-    	
+    	east=x+1;
+		west=x-1;
+		north=y-1;
+		south=y+1;
     	while(south<=7 && west>=0 && f.pezzi[west][south].getIcon() == null) {
     		f.pezzi[west][south].setIcon(f.pallino);
     		f.pezzi[west][south].setVisible(true);
@@ -322,7 +331,10 @@ public class MyActionListener implements ActionListener {
     	if(north>=0 && east<=7 && (f.pezzi[east][north].getIcon() == f.alfiereBianco || f.pezzi[east][north].getIcon() == f.pedoneBianco || f.pezzi[east][north].getIcon() == f.torreBianca || f.pezzi[east][north].getIcon() == f.cavalloBianco || f.pezzi[east][north].getIcon() == f.reginaBianca || f.pezzi[east][north].getIcon() == f.reBianco)) {
     		f.pezzi[east][north].setBorder(BorderFactory.createLineBorder(Color.red, 3));
     	}
-    	
+    	east=x+1;
+		west=x-1;
+		north=y-1;
+		south=y+1;
     	while(north>=0 && west>=0 && f.pezzi[west][north].getIcon() == null) {
     		f.pezzi[west][north].setIcon(f.pallino);
     		f.pezzi[west][north].setVisible(true);
@@ -333,7 +345,10 @@ public class MyActionListener implements ActionListener {
     		f.pezzi[west][north].setBorder(BorderFactory.createLineBorder(Color.red, 3));
     	}
     	
-    	
+    	east=x+1;
+		west=x-1;
+		north=y-1;
+		south=y+1;
     	while(south<=7 && east<=7 && f.pezzi[east][south].getIcon() == null) {
     		f.pezzi[east][south].setIcon(f.pallino);
     		f.pezzi[east][south].setVisible(true);
@@ -343,7 +358,10 @@ public class MyActionListener implements ActionListener {
     	if(south<=7 && east<=7 && (f.pezzi[east][south].getIcon() == f.alfiereBianco || f.pezzi[east][south].getIcon() == f.pedoneBianco || f.pezzi[east][south].getIcon() == f.torreBianca || f.pezzi[east][south].getIcon() == f.cavalloBianco || f.pezzi[east][south].getIcon() == f.reginaBianca || f.pezzi[east][south].getIcon() == f.reBianco)) {
     		f.pezzi[east][south].setBorder(BorderFactory.createLineBorder(Color.red, 3));
     	}
-    	
+    	east=x+1;
+		west=x-1;
+		north=y-1;
+		south=y+1;
     	while(south<=7 && west>=0 && f.pezzi[west][south].getIcon() == null) {
     		f.pezzi[west][south].setIcon(f.pallino);
     		f.pezzi[west][south].setVisible(true);
