@@ -41,21 +41,21 @@ public class Frame extends JFrame{
 		caselle = new JPanel[n][n];
 		pezzi = new JButton[n][n];
 		
-		pallino = new ImageIcon("C:/Users/Ruben/Downloads/pezzi/pallino.png");
+		pallino = new ImageIcon("../chess_Java/src/chess_Java/pezzi/pallino.png");
 		
-		pedoneBianco = new ImageIcon("C:/Users/Ruben/Downloads/pezzi/pedoneBianco.png");
-		reginaBianca = new ImageIcon("C:/Users/Ruben/Downloads/pezzi/reginaBianca.png");
-		reBianco = new ImageIcon("C:/Users/Ruben/Downloads/pezzi/reBianco.png");
-		alfiereBianco = new ImageIcon("C:/Users/Ruben/Downloads/pezzi/alfiereBianco.png");
-		torreBianca = new ImageIcon("C:/Users/Ruben/Downloads/pezzi/torreBianca.png");
-		cavalloBianco = new ImageIcon("C:/Users/Ruben/Downloads/pezzi/cavalloBianco.png");
+		pedoneBianco = new ImageIcon("../chess_Java/src/chess_Java/pezzi/pedoneBianco.png");
+		reginaBianca = new ImageIcon("../chess_Java/src/chess_Java/pezzi/reginaBianca.png");
+		reBianco = new ImageIcon("../chess_Java/src/chess_Java/pezzi/reBianco.png");
+		alfiereBianco = new ImageIcon("../chess_Java/src/chess_Java/pezzi/alfiereBianco.png");
+		torreBianca = new ImageIcon("../chess_Java/src/chess_Java/pezzi/torreBianca.png");
+		cavalloBianco = new ImageIcon("../chess_Java/src/chess_Java/pezzi/cavalloBianco.png");
 		
-		pedoneNero = new ImageIcon("C:/Users/Ruben/Downloads/pezzi/pedoneNero.png");
-		reginaNera = new ImageIcon("C:/Users/Ruben/Downloads/pezzi/reginaNera.png");
-		reNero = new ImageIcon("C:/Users/Ruben/Downloads/pezzi/reNero.png");
-		alfiereNero = new ImageIcon("C:/Users/Ruben/Downloads/pezzi/alfiereNero.png");
-		torreNera = new ImageIcon("C:/Users/Ruben/Downloads/pezzi/torreNera.png");
-		cavalloNero = new ImageIcon("C:/Users/Ruben/Downloads/pezzi/cavalloNero.png");
+		pedoneNero = new ImageIcon("../chess_Java/src/chess_Java/pezzi/pedoneNero.png");
+		reginaNera = new ImageIcon("../chess_Java/src/chess_Java/pezzi/reginaNera.png");
+		reNero = new ImageIcon("../chess_Java/src/chess_Java/pezzi/reNero.png");
+		alfiereNero = new ImageIcon("../chess_Java/src/chess_Java/pezzi/alfiereNero.png");
+		torreNera = new ImageIcon("../chess_Java/src/chess_Java/pezzi/torreNera.png");
+		cavalloNero = new ImageIcon("../chess_Java/src/chess_Java/pezzi/cavalloNero.png");
 		
 		int d=0;
 		for(int y=0; y<n; y++) {
