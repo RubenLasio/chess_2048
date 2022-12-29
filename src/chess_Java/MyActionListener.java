@@ -165,6 +165,7 @@ public class MyActionListener implements ActionListener {
 		int south=y+1;
     	while(north>=0 && f.pezzi[x][north].getIcon() == null) {
     		f.pezzi[x][north].setIcon(f.pallino);
+    		f.pezzi[x][north].setVisible(true);
     		north--;
     	}
     	if(north>=0 && (f.pezzi[x][north].getIcon() == f.alfiereBianco || f.pezzi[x][north].getIcon() == f.pedoneBianco || f.pezzi[x][north].getIcon() == f.torreBianca || f.pezzi[x][north].getIcon() == f.cavalloBianco || f.pezzi[x][north].getIcon() == f.reginaBianca || f.pezzi[x][north].getIcon() == f.reBianco)) {
@@ -173,6 +174,7 @@ public class MyActionListener implements ActionListener {
     	
     	while(south<=7 && f.pezzi[x][south].getIcon() == null) {
     		f.pezzi[x][south].setIcon(f.pallino);
+    		f.pezzi[x][south].setVisible(true);
     		south++;
     	}
     	if(south<=7 && (f.pezzi[x][south].getIcon() == f.alfiereBianco || f.pezzi[x][south].getIcon() == f.pedoneBianco || f.pezzi[x][south].getIcon() == f.torreBianca || f.pezzi[x][south].getIcon() == f.cavalloBianco || f.pezzi[x][south].getIcon() == f.reginaBianca || f.pezzi[x][south].getIcon() == f.reBianco)) {
@@ -181,6 +183,7 @@ public class MyActionListener implements ActionListener {
     	
     	while(east<=7 && f.pezzi[east][y].getIcon() == null) {
     		f.pezzi[east][y].setIcon(f.pallino);
+    		f.pezzi[east][y].setVisible(true);
     		east++;
     	}
     	if(east<=7 && (f.pezzi[east][y].getIcon() == f.alfiereBianco || f.pezzi[east][y].getIcon() == f.pedoneBianco || f.pezzi[east][y].getIcon() == f.torreBianca || f.pezzi[east][y].getIcon() == f.cavalloBianco || f.pezzi[east][y].getIcon() == f.reginaBianca || f.pezzi[east][y].getIcon() == f.reBianco)) {
@@ -189,6 +192,7 @@ public class MyActionListener implements ActionListener {
     	
     	while(west>=0 && f.pezzi[west][y].getIcon() == null) {
     		f.pezzi[west][y].setIcon(f.pallino);
+    		f.pezzi[west][y].setVisible(true);
     		west++;
     	}
     	if(west>=0 && (f.pezzi[west][y].getIcon() == f.alfiereBianco || f.pezzi[west][y].getIcon() == f.pedoneBianco || f.pezzi[west][y].getIcon() == f.torreBianca || f.pezzi[west][y].getIcon() == f.cavalloBianco || f.pezzi[west][y].getIcon() == f.reginaBianca || f.pezzi[west][y].getIcon() == f.reBianco)) {
